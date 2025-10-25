@@ -2,18 +2,7 @@
 
 ## Overview
 
-This guide walks you through setting up the **Azure AI Foundry Agent Service** with the **Browser Automation Tool**. This approach is different from the previous demo - instead of running Playwright locally, the browser automation runs in a cloud-hosted, isolated environment managed by Azure Playwright Workspaces.
-
-## Key Differences from Previous Approach
-
-| Aspect | Previous Approach (`final_working_demo.py`) | Agent Service Approach |
-|--------|---------------------------------------------|------------------------|
-| **Browser Execution** | Local Playwright on your machine | Cloud-hosted in Azure Playwright Workspaces |
-| **SDK Used** | Azure OpenAI SDK (`openai` package) | Azure AI Agents SDK (`azure-ai-agents`) |
-| **Architecture** | Direct API calls to Azure OpenAI | Agent Service with Browser Automation Tool |
-| **Browser Management** | You manage browser lifecycle | Azure manages browser sessions |
-| **Isolation** | Runs on your machine | Sandboxed cloud environment |
-| **Scalability** | Limited to local resources | Scales in Azure cloud |
+This guide walks you through setting up the **Azure AI Foundry Agent Service** with the **Browser Automation Tool**. 
 
 ## Prerequisites
 
